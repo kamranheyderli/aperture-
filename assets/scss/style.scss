@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.container {
+    width: 80%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// start-header
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #181818;
+    position: fixed;
+    position: absolute;
+    z-index: 2;
+
+    .text {
+        h1 {
+            color: #FFFFFF;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin-left: 32px;
+
+                a {
+                    color: #FFFFFF;
+                }
+            }
+
+            button {
+                width: 155px;
+                height: 42px;
+                margin-left: 31px;
+                background-color: #FFFFFF;
+                color: black;
+                border-radius: 14px;
+
+            }
+        }
+
+
+    }
+
+}
+
+// end-heade
+
+
+// start-first-sections
+.first-section {
+    width: 100%;
+    height: 716px;
+    background-image: url(../image/IMAGE.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        height: 716px;
+
+    }
+
+
+    .parapraph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .txtcontent {
+        width: 263px;
+        height: 20px;
+        color: #C0C0C0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    h2 {
+
+        width: 463px;
+        height: 60px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 59px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .text {
+        width: 580px;
+        height: 80px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #C0C0C0;
+    }
+
+    .locations {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: absolute;
+        left: 70%;
+        top: 550px;
+
+        svg {
+            margin-left: 20px;
+        }
+
+        span {
+            color: #FFFFFF;
+            margin-left: 10px;
+        }
+
+    }
+}
+
+// end-first-sections
+
+// start-two-section
+.two-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    top: 716px;
+
+
+
+    .tittle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 220px;
+
+        h2 {
+            width: 248px;
+            height: 42px;
+            color: white;
+            font-size: 40px;
+            font-weight: 400;
+            margin-bottom: 20px;
+
+        }
+
+        p {
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+
+    }
+
+    .all-cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            width: 576px;
+            height: 600px;
+            margin: 10px;
+            position: relative;
+
+        }
+
+        img {
+            width: 576px;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        .detail {
+            position: absolute;
+            bottom: 90px;
+            left: 30px;
+
+            h3 {
+                width: 222px;
+                height: 40px;
+                color: #FFFFFF;
+                font-size: 15px;
+                font-weight: 400;
+            }
+
+            p {
+                width: 501px;
+                height: 80px;
+                color: #FFFFFF;
+                font-weight: 400;
+            }
+
+        }
+    }
+
+}
